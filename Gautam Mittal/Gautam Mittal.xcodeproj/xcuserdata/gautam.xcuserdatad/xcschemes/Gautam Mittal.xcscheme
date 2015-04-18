@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C74F72081ADE14430072D33F"
+               BlueprintIdentifier = "C7E4F7FD1AE1EF25009C5BBD"
                BuildableName = "Gautam Mittal.app"
                BlueprintName = "Gautam Mittal"
                ReferencedContainer = "container:Gautam Mittal.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C74F72211ADE14430072D33F"
+               BlueprintIdentifier = "C7E4F8121AE1EF26009C5BBD"
                BuildableName = "Gautam MittalTests.xctest"
                BlueprintName = "Gautam MittalTests"
                ReferencedContainer = "container:Gautam Mittal.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C74F72211ADE14430072D33F"
+               BlueprintIdentifier = "C7E4F8121AE1EF26009C5BBD"
                BuildableName = "Gautam MittalTests.xctest"
                BlueprintName = "Gautam MittalTests"
                ReferencedContainer = "container:Gautam Mittal.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C74F72081ADE14430072D33F"
+            BlueprintIdentifier = "C7E4F7FD1AE1EF25009C5BBD"
             BuildableName = "Gautam Mittal.app"
             BlueprintName = "Gautam Mittal"
             ReferencedContainer = "container:Gautam Mittal.xcodeproj">
@@ -76,7 +76,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C74F72081ADE14430072D33F"
+            BlueprintIdentifier = "C7E4F7FD1AE1EF25009C5BBD"
             BuildableName = "Gautam Mittal.app"
             BlueprintName = "Gautam Mittal"
             ReferencedContainer = "container:Gautam Mittal.xcodeproj">
@@ -95,7 +95,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C74F72081ADE14430072D33F"
+            BlueprintIdentifier = "C7E4F7FD1AE1EF25009C5BBD"
             BuildableName = "Gautam Mittal.app"
             BlueprintName = "Gautam Mittal"
             ReferencedContainer = "container:Gautam Mittal.xcodeproj">

@@ -7,50 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C74F720F1ADE14430072D33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F720E1ADE14430072D33F /* AppDelegate.swift */; };
-		C74F72111ADE14430072D33F /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = C74F72101ADE14430072D33F /* GameScene.sks */; };
-		C74F72131ADE14430072D33F /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F72121ADE14430072D33F /* GameScene.swift */; };
-		C74F72151ADE14430072D33F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F72141ADE14430072D33F /* GameViewController.swift */; };
-		C74F72181ADE14430072D33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C74F72161ADE14430072D33F /* Main.storyboard */; };
-		C74F721A1ADE14430072D33F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C74F72191ADE14430072D33F /* Images.xcassets */; };
-		C74F721D1ADE14430072D33F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C74F721B1ADE14430072D33F /* LaunchScreen.xib */; };
-		C74F72291ADE14430072D33F /* Gautam_MittalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74F72281ADE14430072D33F /* Gautam_MittalTests.swift */; };
+		C7E4F8041AE1EF25009C5BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */; };
+		C7E4F8061AE1EF25009C5BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8051AE1EF25009C5BBD /* ViewController.swift */; };
+		C7E4F8091AE1EF26009C5BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F8071AE1EF26009C5BBD /* Main.storyboard */; };
+		C7E4F80B1AE1EF26009C5BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */; };
+		C7E4F80E1AE1EF26009C5BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */; };
+		C7E4F81A1AE1EF26009C5BBD /* Gautam_MittalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C74F72231ADE14430072D33F /* PBXContainerItemProxy */ = {
+		C7E4F8141AE1EF26009C5BBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C74F72011ADE14430072D33F /* Project object */;
+			containerPortal = C7E4F7F61AE1EF25009C5BBD /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C74F72081ADE14430072D33F;
+			remoteGlobalIDString = C7E4F7FD1AE1EF25009C5BBD;
 			remoteInfo = "Gautam Mittal";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C74F72091ADE14430072D33F /* Gautam Mittal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gautam Mittal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C74F720D1ADE14430072D33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C74F720E1ADE14430072D33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C74F72101ADE14430072D33F /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		C74F72121ADE14430072D33F /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		C74F72141ADE14430072D33F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		C74F72171ADE14430072D33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C74F72191ADE14430072D33F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C74F721C1ADE14430072D33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C74F72221ADE14430072D33F /* Gautam MittalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gautam MittalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C74F72271ADE14430072D33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C74F72281ADE14430072D33F /* Gautam_MittalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gautam_MittalTests.swift; sourceTree = "<group>"; };
+		C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gautam Mittal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4F8021AE1EF25009C5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C7E4F8051AE1EF25009C5BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C7E4F8081AE1EF26009C5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7E4F80D1AE1EF26009C5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gautam MittalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7E4F8181AE1EF26009C5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gautam_MittalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C74F72061ADE14430072D33F /* Frameworks */ = {
+		C7E4F7FB1AE1EF25009C5BBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C74F721F1ADE14430072D33F /* Frameworks */ = {
+		C7E4F8101AE1EF26009C5BBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,60 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C74F72001ADE14430072D33F = {
+		C7E4F7F51AE1EF25009C5BBD = {
 			isa = PBXGroup;
 			children = (
-				C74F720B1ADE14430072D33F /* Gautam Mittal */,
-				C74F72251ADE14430072D33F /* Gautam MittalTests */,
-				C74F720A1ADE14430072D33F /* Products */,
+				C7E4F8001AE1EF25009C5BBD /* Gautam Mittal */,
+				C7E4F8161AE1EF26009C5BBD /* Gautam MittalTests */,
+				C7E4F7FF1AE1EF25009C5BBD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C74F720A1ADE14430072D33F /* Products */ = {
+		C7E4F7FF1AE1EF25009C5BBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C74F72091ADE14430072D33F /* Gautam Mittal.app */,
-				C74F72221ADE14430072D33F /* Gautam MittalTests.xctest */,
+				C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */,
+				C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C74F720B1ADE14430072D33F /* Gautam Mittal */ = {
+		C7E4F8001AE1EF25009C5BBD /* Gautam Mittal */ = {
 			isa = PBXGroup;
 			children = (
-				C74F720E1ADE14430072D33F /* AppDelegate.swift */,
-				C74F72101ADE14430072D33F /* GameScene.sks */,
-				C74F72121ADE14430072D33F /* GameScene.swift */,
-				C74F72141ADE14430072D33F /* GameViewController.swift */,
-				C74F72161ADE14430072D33F /* Main.storyboard */,
-				C74F72191ADE14430072D33F /* Images.xcassets */,
-				C74F721B1ADE14430072D33F /* LaunchScreen.xib */,
-				C74F720C1ADE14430072D33F /* Supporting Files */,
+				C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */,
+				C7E4F8051AE1EF25009C5BBD /* ViewController.swift */,
+				C7E4F8071AE1EF26009C5BBD /* Main.storyboard */,
+				C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */,
+				C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */,
+				C7E4F8011AE1EF25009C5BBD /* Supporting Files */,
 			);
 			path = "Gautam Mittal";
 			sourceTree = "<group>";
 		};
-		C74F720C1ADE14430072D33F /* Supporting Files */ = {
+		C7E4F8011AE1EF25009C5BBD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C74F720D1ADE14430072D33F /* Info.plist */,
+				C7E4F8021AE1EF25009C5BBD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C74F72251ADE14430072D33F /* Gautam MittalTests */ = {
+		C7E4F8161AE1EF26009C5BBD /* Gautam MittalTests */ = {
 			isa = PBXGroup;
 			children = (
-				C74F72281ADE14430072D33F /* Gautam_MittalTests.swift */,
-				C74F72261ADE14430072D33F /* Supporting Files */,
+				C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */,
+				C7E4F8171AE1EF26009C5BBD /* Supporting Files */,
 			);
 			path = "Gautam MittalTests";
 			sourceTree = "<group>";
 		};
-		C74F72261ADE14430072D33F /* Supporting Files */ = {
+		C7E4F8171AE1EF26009C5BBD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C74F72271ADE14430072D33F /* Info.plist */,
+				C7E4F8181AE1EF26009C5BBD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -121,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C74F72081ADE14430072D33F /* Gautam Mittal */ = {
+		C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C74F722C1ADE14430072D33F /* Build configuration list for PBXNativeTarget "Gautam Mittal" */;
+			buildConfigurationList = C7E4F81D1AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam Mittal" */;
 			buildPhases = (
-				C74F72051ADE14430072D33F /* Sources */,
-				C74F72061ADE14430072D33F /* Frameworks */,
-				C74F72071ADE14430072D33F /* Resources */,
+				C7E4F7FA1AE1EF25009C5BBD /* Sources */,
+				C7E4F7FB1AE1EF25009C5BBD /* Frameworks */,
+				C7E4F7FC1AE1EF25009C5BBD /* Resources */,
 			);
 			buildRules = (
 			);
@@ -135,47 +129,46 @@
 			);
 			name = "Gautam Mittal";
 			productName = "Gautam Mittal";
-			productReference = C74F72091ADE14430072D33F /* Gautam Mittal.app */;
+			productReference = C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C74F72211ADE14430072D33F /* Gautam MittalTests */ = {
+		C7E4F8121AE1EF26009C5BBD /* Gautam MittalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C74F722F1ADE14430072D33F /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */;
+			buildConfigurationList = C7E4F8201AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */;
 			buildPhases = (
-				C74F721E1ADE14430072D33F /* Sources */,
-				C74F721F1ADE14430072D33F /* Frameworks */,
-				C74F72201ADE14430072D33F /* Resources */,
+				C7E4F80F1AE1EF26009C5BBD /* Sources */,
+				C7E4F8101AE1EF26009C5BBD /* Frameworks */,
+				C7E4F8111AE1EF26009C5BBD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C74F72241ADE14430072D33F /* PBXTargetDependency */,
+				C7E4F8151AE1EF26009C5BBD /* PBXTargetDependency */,
 			);
 			name = "Gautam MittalTests";
 			productName = "Gautam MittalTests";
-			productReference = C74F72221ADE14430072D33F /* Gautam MittalTests.xctest */;
+			productReference = C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C74F72011ADE14430072D33F /* Project object */ = {
+		C7E4F7F61AE1EF25009C5BBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gautam Mittal";
 				TargetAttributes = {
-					C74F72081ADE14430072D33F = {
+					C7E4F7FD1AE1EF25009C5BBD = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = BJG88PA8FQ;
 					};
-					C74F72211ADE14430072D33F = {
+					C7E4F8121AE1EF26009C5BBD = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = C74F72081ADE14430072D33F;
+						TestTargetID = C7E4F7FD1AE1EF25009C5BBD;
 					};
 				};
 			};
-			buildConfigurationList = C74F72041ADE14430072D33F /* Build configuration list for PBXProject "Gautam Mittal" */;
+			buildConfigurationList = C7E4F7F91AE1EF25009C5BBD /* Build configuration list for PBXProject "Gautam Mittal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -183,30 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C74F72001ADE14430072D33F;
-			productRefGroup = C74F720A1ADE14430072D33F /* Products */;
+			mainGroup = C7E4F7F51AE1EF25009C5BBD;
+			productRefGroup = C7E4F7FF1AE1EF25009C5BBD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C74F72081ADE14430072D33F /* Gautam Mittal */,
-				C74F72211ADE14430072D33F /* Gautam MittalTests */,
+				C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */,
+				C7E4F8121AE1EF26009C5BBD /* Gautam MittalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C74F72071ADE14430072D33F /* Resources */ = {
+		C7E4F7FC1AE1EF25009C5BBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74F721D1ADE14430072D33F /* LaunchScreen.xib in Resources */,
-				C74F721A1ADE14430072D33F /* Images.xcassets in Resources */,
-				C74F72111ADE14430072D33F /* GameScene.sks in Resources */,
-				C74F72181ADE14430072D33F /* Main.storyboard in Resources */,
+				C7E4F8091AE1EF26009C5BBD /* Main.storyboard in Resources */,
+				C7E4F80E1AE1EF26009C5BBD /* LaunchScreen.xib in Resources */,
+				C7E4F80B1AE1EF26009C5BBD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C74F72201ADE14430072D33F /* Resources */ = {
+		C7E4F8111AE1EF26009C5BBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -216,47 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C74F72051ADE14430072D33F /* Sources */ = {
+		C7E4F7FA1AE1EF25009C5BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74F72131ADE14430072D33F /* GameScene.swift in Sources */,
-				C74F72151ADE14430072D33F /* GameViewController.swift in Sources */,
-				C74F720F1ADE14430072D33F /* AppDelegate.swift in Sources */,
+				C7E4F8061AE1EF25009C5BBD /* ViewController.swift in Sources */,
+				C7E4F8041AE1EF25009C5BBD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C74F721E1ADE14430072D33F /* Sources */ = {
+		C7E4F80F1AE1EF26009C5BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74F72291ADE14430072D33F /* Gautam_MittalTests.swift in Sources */,
+				C7E4F81A1AE1EF26009C5BBD /* Gautam_MittalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C74F72241ADE14430072D33F /* PBXTargetDependency */ = {
+		C7E4F8151AE1EF26009C5BBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C74F72081ADE14430072D33F /* Gautam Mittal */;
-			targetProxy = C74F72231ADE14430072D33F /* PBXContainerItemProxy */;
+			target = C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */;
+			targetProxy = C7E4F8141AE1EF26009C5BBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C74F72161ADE14430072D33F /* Main.storyboard */ = {
+		C7E4F8071AE1EF26009C5BBD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C74F72171ADE14430072D33F /* Base */,
+				C7E4F8081AE1EF26009C5BBD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C74F721B1ADE14430072D33F /* LaunchScreen.xib */ = {
+		C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C74F721C1ADE14430072D33F /* Base */,
+				C7E4F80D1AE1EF26009C5BBD /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -264,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C74F722A1ADE14430072D33F /* Debug */ = {
+		C7E4F81B1AE1EF26009C5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +299,7 @@
 			};
 			name = Debug;
 		};
-		C74F722B1ADE14430072D33F /* Release */ = {
+		C7E4F81C1AE1EF26009C5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -345,29 +336,27 @@
 			};
 			name = Release;
 		};
-		C74F722D1ADE14430072D33F /* Debug */ = {
+		C7E4F81E1AE1EF26009C5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Gautam Mittal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		C74F722E1ADE14430072D33F /* Release */ = {
+		C7E4F81F1AE1EF26009C5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Gautam Mittal/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		C74F72301ADE14430072D33F /* Debug */ = {
+		C7E4F8211AE1EF26009C5BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -386,7 +375,7 @@
 			};
 			name = Debug;
 		};
-		C74F72311ADE14430072D33F /* Release */ = {
+		C7E4F8221AE1EF26009C5BBD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,32 +393,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C74F72041ADE14430072D33F /* Build configuration list for PBXProject "Gautam Mittal" */ = {
+		C7E4F7F91AE1EF25009C5BBD /* Build configuration list for PBXProject "Gautam Mittal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C74F722A1ADE14430072D33F /* Debug */,
-				C74F722B1ADE14430072D33F /* Release */,
+				C7E4F81B1AE1EF26009C5BBD /* Debug */,
+				C7E4F81C1AE1EF26009C5BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C74F722C1ADE14430072D33F /* Build configuration list for PBXNativeTarget "Gautam Mittal" */ = {
+		C7E4F81D1AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam Mittal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C74F722D1ADE14430072D33F /* Debug */,
-				C74F722E1ADE14430072D33F /* Release */,
+				C7E4F81E1AE1EF26009C5BBD /* Debug */,
+				C7E4F81F1AE1EF26009C5BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C74F722F1ADE14430072D33F /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */ = {
+		C7E4F8201AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C74F72301ADE14430072D33F /* Debug */,
-				C74F72311ADE14430072D33F /* Release */,
+				C7E4F8211AE1EF26009C5BBD /* Debug */,
+				C7E4F8221AE1EF26009C5BBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C74F72011ADE14430072D33F /* Project object */;
+	rootObject = C7E4F7F61AE1EF25009C5BBD /* Project object */;
 }
