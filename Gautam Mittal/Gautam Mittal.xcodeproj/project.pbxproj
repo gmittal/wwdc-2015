@@ -7,46 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7E4F8041AE1EF25009C5BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */; };
-		C7E4F8061AE1EF25009C5BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8051AE1EF25009C5BBD /* ViewController.swift */; };
-		C7E4F8091AE1EF26009C5BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F8071AE1EF26009C5BBD /* Main.storyboard */; };
-		C7E4F80B1AE1EF26009C5BBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */; };
-		C7E4F80E1AE1EF26009C5BBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */; };
-		C7E4F81A1AE1EF26009C5BBD /* Gautam_MittalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */; };
+		C798762D1AE6FD7C0078B3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */; };
+		C798762F1AE6FD7C0078B3C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798762E1AE6FD7C0078B3C1 /* FirstViewController.swift */; };
+		C79876311AE6FD7C0078B3C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79876301AE6FD7C0078B3C1 /* SecondViewController.swift */; };
+		C79876341AE6FD7C0078B3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79876321AE6FD7C0078B3C1 /* Main.storyboard */; };
+		C79876361AE6FD7C0078B3C1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79876351AE6FD7C0078B3C1 /* Images.xcassets */; };
+		C79876391AE6FD7C0078B3C1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79876371AE6FD7C0078B3C1 /* LaunchScreen.xib */; };
+		C79876451AE6FD7C0078B3C1 /* Gautam_MittalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79876441AE6FD7C0078B3C1 /* Gautam_MittalTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C7E4F8141AE1EF26009C5BBD /* PBXContainerItemProxy */ = {
+		C798763F1AE6FD7C0078B3C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C7E4F7F61AE1EF25009C5BBD /* Project object */;
+			containerPortal = C798761F1AE6FD7C0078B3C1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C7E4F7FD1AE1EF25009C5BBD;
+			remoteGlobalIDString = C79876261AE6FD7C0078B3C1;
 			remoteInfo = "Gautam Mittal";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gautam Mittal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7E4F8021AE1EF25009C5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7E4F8051AE1EF25009C5BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C7E4F8081AE1EF26009C5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C7E4F80D1AE1EF26009C5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gautam MittalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C7E4F8181AE1EF26009C5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gautam_MittalTests.swift; sourceTree = "<group>"; };
+		C79876271AE6FD7C0078B3C1 /* Gautam Mittal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gautam Mittal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C798762B1AE6FD7C0078B3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C798762E1AE6FD7C0078B3C1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		C79876301AE6FD7C0078B3C1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C79876331AE6FD7C0078B3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C79876351AE6FD7C0078B3C1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C79876381AE6FD7C0078B3C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C798763E1AE6FD7C0078B3C1 /* Gautam MittalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gautam MittalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C79876431AE6FD7C0078B3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79876441AE6FD7C0078B3C1 /* Gautam_MittalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gautam_MittalTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C7E4F7FB1AE1EF25009C5BBD /* Frameworks */ = {
+		C79876241AE6FD7C0078B3C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7E4F8101AE1EF26009C5BBD /* Frameworks */ = {
+		C798763B1AE6FD7C0078B3C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -56,58 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C7E4F7F51AE1EF25009C5BBD = {
+		C798761E1AE6FD7C0078B3C1 = {
 			isa = PBXGroup;
 			children = (
-				C7E4F8001AE1EF25009C5BBD /* Gautam Mittal */,
-				C7E4F8161AE1EF26009C5BBD /* Gautam MittalTests */,
-				C7E4F7FF1AE1EF25009C5BBD /* Products */,
+				C79876291AE6FD7C0078B3C1 /* Gautam Mittal */,
+				C79876411AE6FD7C0078B3C1 /* Gautam MittalTests */,
+				C79876281AE6FD7C0078B3C1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C7E4F7FF1AE1EF25009C5BBD /* Products */ = {
+		C79876281AE6FD7C0078B3C1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */,
-				C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */,
+				C79876271AE6FD7C0078B3C1 /* Gautam Mittal.app */,
+				C798763E1AE6FD7C0078B3C1 /* Gautam MittalTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C7E4F8001AE1EF25009C5BBD /* Gautam Mittal */ = {
+		C79876291AE6FD7C0078B3C1 /* Gautam Mittal */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4F8031AE1EF25009C5BBD /* AppDelegate.swift */,
-				C7E4F8051AE1EF25009C5BBD /* ViewController.swift */,
-				C7E4F8071AE1EF26009C5BBD /* Main.storyboard */,
-				C7E4F80A1AE1EF26009C5BBD /* Images.xcassets */,
-				C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */,
-				C7E4F8011AE1EF25009C5BBD /* Supporting Files */,
+				C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */,
+				C798762E1AE6FD7C0078B3C1 /* FirstViewController.swift */,
+				C79876301AE6FD7C0078B3C1 /* SecondViewController.swift */,
+				C79876321AE6FD7C0078B3C1 /* Main.storyboard */,
+				C79876351AE6FD7C0078B3C1 /* Images.xcassets */,
+				C79876371AE6FD7C0078B3C1 /* LaunchScreen.xib */,
+				C798762A1AE6FD7C0078B3C1 /* Supporting Files */,
 			);
 			path = "Gautam Mittal";
 			sourceTree = "<group>";
 		};
-		C7E4F8011AE1EF25009C5BBD /* Supporting Files */ = {
+		C798762A1AE6FD7C0078B3C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4F8021AE1EF25009C5BBD /* Info.plist */,
+				C798762B1AE6FD7C0078B3C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C7E4F8161AE1EF26009C5BBD /* Gautam MittalTests */ = {
+		C79876411AE6FD7C0078B3C1 /* Gautam MittalTests */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4F8191AE1EF26009C5BBD /* Gautam_MittalTests.swift */,
-				C7E4F8171AE1EF26009C5BBD /* Supporting Files */,
+				C79876441AE6FD7C0078B3C1 /* Gautam_MittalTests.swift */,
+				C79876421AE6FD7C0078B3C1 /* Supporting Files */,
 			);
 			path = "Gautam MittalTests";
 			sourceTree = "<group>";
 		};
-		C7E4F8171AE1EF26009C5BBD /* Supporting Files */ = {
+		C79876421AE6FD7C0078B3C1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				C7E4F8181AE1EF26009C5BBD /* Info.plist */,
+				C79876431AE6FD7C0078B3C1 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -115,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */ = {
+		C79876261AE6FD7C0078B3C1 /* Gautam Mittal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7E4F81D1AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam Mittal" */;
+			buildConfigurationList = C79876481AE6FD7C0078B3C1 /* Build configuration list for PBXNativeTarget "Gautam Mittal" */;
 			buildPhases = (
-				C7E4F7FA1AE1EF25009C5BBD /* Sources */,
-				C7E4F7FB1AE1EF25009C5BBD /* Frameworks */,
-				C7E4F7FC1AE1EF25009C5BBD /* Resources */,
+				C79876231AE6FD7C0078B3C1 /* Sources */,
+				C79876241AE6FD7C0078B3C1 /* Frameworks */,
+				C79876251AE6FD7C0078B3C1 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -129,46 +132,46 @@
 			);
 			name = "Gautam Mittal";
 			productName = "Gautam Mittal";
-			productReference = C7E4F7FE1AE1EF25009C5BBD /* Gautam Mittal.app */;
+			productReference = C79876271AE6FD7C0078B3C1 /* Gautam Mittal.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C7E4F8121AE1EF26009C5BBD /* Gautam MittalTests */ = {
+		C798763D1AE6FD7C0078B3C1 /* Gautam MittalTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7E4F8201AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */;
+			buildConfigurationList = C798764B1AE6FD7C0078B3C1 /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */;
 			buildPhases = (
-				C7E4F80F1AE1EF26009C5BBD /* Sources */,
-				C7E4F8101AE1EF26009C5BBD /* Frameworks */,
-				C7E4F8111AE1EF26009C5BBD /* Resources */,
+				C798763A1AE6FD7C0078B3C1 /* Sources */,
+				C798763B1AE6FD7C0078B3C1 /* Frameworks */,
+				C798763C1AE6FD7C0078B3C1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C7E4F8151AE1EF26009C5BBD /* PBXTargetDependency */,
+				C79876401AE6FD7C0078B3C1 /* PBXTargetDependency */,
 			);
 			name = "Gautam MittalTests";
 			productName = "Gautam MittalTests";
-			productReference = C7E4F8131AE1EF26009C5BBD /* Gautam MittalTests.xctest */;
+			productReference = C798763E1AE6FD7C0078B3C1 /* Gautam MittalTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C7E4F7F61AE1EF25009C5BBD /* Project object */ = {
+		C798761F1AE6FD7C0078B3C1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Gautam Mittal";
 				TargetAttributes = {
-					C7E4F7FD1AE1EF25009C5BBD = {
+					C79876261AE6FD7C0078B3C1 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					C7E4F8121AE1EF26009C5BBD = {
+					C798763D1AE6FD7C0078B3C1 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = C7E4F7FD1AE1EF25009C5BBD;
+						TestTargetID = C79876261AE6FD7C0078B3C1;
 					};
 				};
 			};
-			buildConfigurationList = C7E4F7F91AE1EF25009C5BBD /* Build configuration list for PBXProject "Gautam Mittal" */;
+			buildConfigurationList = C79876221AE6FD7C0078B3C1 /* Build configuration list for PBXProject "Gautam Mittal" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -176,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C7E4F7F51AE1EF25009C5BBD;
-			productRefGroup = C7E4F7FF1AE1EF25009C5BBD /* Products */;
+			mainGroup = C798761E1AE6FD7C0078B3C1;
+			productRefGroup = C79876281AE6FD7C0078B3C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */,
-				C7E4F8121AE1EF26009C5BBD /* Gautam MittalTests */,
+				C79876261AE6FD7C0078B3C1 /* Gautam Mittal */,
+				C798763D1AE6FD7C0078B3C1 /* Gautam MittalTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C7E4F7FC1AE1EF25009C5BBD /* Resources */ = {
+		C79876251AE6FD7C0078B3C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E4F8091AE1EF26009C5BBD /* Main.storyboard in Resources */,
-				C7E4F80E1AE1EF26009C5BBD /* LaunchScreen.xib in Resources */,
-				C7E4F80B1AE1EF26009C5BBD /* Images.xcassets in Resources */,
+				C79876341AE6FD7C0078B3C1 /* Main.storyboard in Resources */,
+				C79876391AE6FD7C0078B3C1 /* LaunchScreen.xib in Resources */,
+				C79876361AE6FD7C0078B3C1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7E4F8111AE1EF26009C5BBD /* Resources */ = {
+		C798763C1AE6FD7C0078B3C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -208,46 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C7E4F7FA1AE1EF25009C5BBD /* Sources */ = {
+		C79876231AE6FD7C0078B3C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E4F8061AE1EF25009C5BBD /* ViewController.swift in Sources */,
-				C7E4F8041AE1EF25009C5BBD /* AppDelegate.swift in Sources */,
+				C79876311AE6FD7C0078B3C1 /* SecondViewController.swift in Sources */,
+				C798762D1AE6FD7C0078B3C1 /* AppDelegate.swift in Sources */,
+				C798762F1AE6FD7C0078B3C1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7E4F80F1AE1EF26009C5BBD /* Sources */ = {
+		C798763A1AE6FD7C0078B3C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7E4F81A1AE1EF26009C5BBD /* Gautam_MittalTests.swift in Sources */,
+				C79876451AE6FD7C0078B3C1 /* Gautam_MittalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C7E4F8151AE1EF26009C5BBD /* PBXTargetDependency */ = {
+		C79876401AE6FD7C0078B3C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C7E4F7FD1AE1EF25009C5BBD /* Gautam Mittal */;
-			targetProxy = C7E4F8141AE1EF26009C5BBD /* PBXContainerItemProxy */;
+			target = C79876261AE6FD7C0078B3C1 /* Gautam Mittal */;
+			targetProxy = C798763F1AE6FD7C0078B3C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C7E4F8071AE1EF26009C5BBD /* Main.storyboard */ = {
+		C79876321AE6FD7C0078B3C1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7E4F8081AE1EF26009C5BBD /* Base */,
+				C79876331AE6FD7C0078B3C1 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C7E4F80C1AE1EF26009C5BBD /* LaunchScreen.xib */ = {
+		C79876371AE6FD7C0078B3C1 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				C7E4F80D1AE1EF26009C5BBD /* Base */,
+				C79876381AE6FD7C0078B3C1 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -255,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		C7E4F81B1AE1EF26009C5BBD /* Debug */ = {
+		C79876461AE6FD7C0078B3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +303,7 @@
 			};
 			name = Debug;
 		};
-		C7E4F81C1AE1EF26009C5BBD /* Release */ = {
+		C79876471AE6FD7C0078B3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -336,7 +340,7 @@
 			};
 			name = Release;
 		};
-		C7E4F81E1AE1EF26009C5BBD /* Debug */ = {
+		C79876491AE6FD7C0078B3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -346,7 +350,7 @@
 			};
 			name = Debug;
 		};
-		C7E4F81F1AE1EF26009C5BBD /* Release */ = {
+		C798764A1AE6FD7C0078B3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -356,7 +360,7 @@
 			};
 			name = Release;
 		};
-		C7E4F8211AE1EF26009C5BBD /* Debug */ = {
+		C798764C1AE6FD7C0078B3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -375,7 +379,7 @@
 			};
 			name = Debug;
 		};
-		C7E4F8221AE1EF26009C5BBD /* Release */ = {
+		C798764D1AE6FD7C0078B3C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -393,32 +397,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C7E4F7F91AE1EF25009C5BBD /* Build configuration list for PBXProject "Gautam Mittal" */ = {
+		C79876221AE6FD7C0078B3C1 /* Build configuration list for PBXProject "Gautam Mittal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7E4F81B1AE1EF26009C5BBD /* Debug */,
-				C7E4F81C1AE1EF26009C5BBD /* Release */,
+				C79876461AE6FD7C0078B3C1 /* Debug */,
+				C79876471AE6FD7C0078B3C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7E4F81D1AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam Mittal" */ = {
+		C79876481AE6FD7C0078B3C1 /* Build configuration list for PBXNativeTarget "Gautam Mittal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7E4F81E1AE1EF26009C5BBD /* Debug */,
-				C7E4F81F1AE1EF26009C5BBD /* Release */,
+				C79876491AE6FD7C0078B3C1 /* Debug */,
+				C798764A1AE6FD7C0078B3C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C7E4F8201AE1EF26009C5BBD /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */ = {
+		C798764B1AE6FD7C0078B3C1 /* Build configuration list for PBXNativeTarget "Gautam MittalTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7E4F8211AE1EF26009C5BBD /* Debug */,
-				C7E4F8221AE1EF26009C5BBD /* Release */,
+				C798764C1AE6FD7C0078B3C1 /* Debug */,
+				C798764D1AE6FD7C0078B3C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C7E4F7F61AE1EF25009C5BBD /* Project object */;
+	rootObject = C798761F1AE6FD7C0078B3C1 /* Project object */;
 }
