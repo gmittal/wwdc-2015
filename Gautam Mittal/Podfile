@@ -5,7 +5,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'Gautam Mittal' do
 
-pod 'Wit', '~> 4.1.0'
+pod 'HTPressableButton'
 
 end
 

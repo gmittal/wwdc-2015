@@ -39,7 +39,7 @@ class FirstViewController: UIViewController {
         self.edgesForExtendedLayout = UIRectEdge();
 //        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
        
-         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
+         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "grey")!)
         
   
 

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>342F8621-C85A-495B-AD0B-84BEC14FC6DD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Gautam Mittal</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>00571B1AF4E310DB3000412F90AB5D7EC1DEE2E5</key>
 		<string>https://github.com/gmittal/wwdc-2015</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Gautam Mittal/Gautam Mittal.xcodeproj/project.xcworkspace</string>
+	<string>Gautam Mittal/Gautam Mittal.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>00571B1AF4E310DB3000412F90AB5D7EC1DEE2E5</key>

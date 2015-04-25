@@ -1,1 +1,0 @@
-PODS_GAUTAM_MITTAL_WIT_OTHER_LDFLAGS = -framework "AudioToolbox" -framework "QuartzCore"

@@ -1,10 +1,12 @@
 PODS:
-  - Wit (4.1.0)
+  - HTPressableButton (1.3.2):
+    - HTPressableButton/All
+  - HTPressableButton/All (1.3.2)
 
 DEPENDENCIES:
-  - Wit (~> 4.1.0)
+  - HTPressableButton
 
 SPEC CHECKSUMS:
-  Wit: c00af597e168d45b00109993bb378ce86456c346
+  HTPressableButton: 8e0108962e6e4620378dcfccdaaf363a10e98fa2
 
 COCOAPODS: 0.34.4

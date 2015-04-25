@@ -10,6 +10,7 @@ import UIKit
 
 class InterestsViewController: UIViewController {
 
+    @IBOutlet weak var interestsView: UIScrollView!
  
     
     override func viewDidLoad() {
@@ -17,8 +18,10 @@ class InterestsViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-//        self.title = "Interests"
-//        self.navigationItem.backBarButtonItem?.title = "Back";
+
+        interestsView.contentSize = CGSizeMake(view.bounds.width, view.bounds.height+100);
+        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "grey")!)
 
     }
 
