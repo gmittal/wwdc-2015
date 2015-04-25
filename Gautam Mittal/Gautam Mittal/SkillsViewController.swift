@@ -8,38 +8,17 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class SkillsViewController: UIViewController {
 
  
-//    // button actions
-//    @IBAction func aboutButtonPressed(sender: AnyObject) {
-//
-//      
-//    }
-//
-//    @IBAction func projectButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    @IBAction func playgroundButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func interestsButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func skillsButtonPressed(sender: AnyObject) {
-//    }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "Gautam Mittal";
-        
-  
+        self.title = "Skills"
+//        self.navigationItem.backBarButtonItem?.title = "Back";
 
     }
 

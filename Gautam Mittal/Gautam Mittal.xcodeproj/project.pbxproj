@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		946B7862384D95A34E048D7B /* libPods-Gautam Mittal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA2DE4BD251DF7DCDA6FCA46 /* libPods-Gautam Mittal.a */; };
+		C7817A921AEBDF39008ACECC /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7817A911AEBDF39008ACECC /* AboutViewController.swift */; };
+		C7817A941AEBE95B008ACECC /* ProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7817A931AEBE95B008ACECC /* ProjectViewController.swift */; };
+		C7817A961AEBFA36008ACECC /* PlaygroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7817A951AEBFA36008ACECC /* PlaygroundViewController.swift */; };
+		C7817A981AEBFA7F008ACECC /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7817A971AEBFA7F008ACECC /* InterestsViewController.swift */; };
+		C7817A9A1AEBFAC0008ACECC /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7817A991AEBFAC0008ACECC /* SkillsViewController.swift */; };
 		C798762D1AE6FD7C0078B3C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */; };
 		C798762F1AE6FD7C0078B3C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798762E1AE6FD7C0078B3C1 /* FirstViewController.swift */; };
 		C79876341AE6FD7C0078B3C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79876321AE6FD7C0078B3C1 /* Main.storyboard */; };
@@ -29,6 +34,11 @@
 /* Begin PBXFileReference section */
 		BD8EA25215B5355261084C89 /* Pods-Gautam Mittal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gautam Mittal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gautam Mittal/Pods-Gautam Mittal.release.xcconfig"; sourceTree = "<group>"; };
 		BE66BE18D00202DE80CC4E76 /* Pods-Gautam Mittal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gautam Mittal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gautam Mittal/Pods-Gautam Mittal.debug.xcconfig"; sourceTree = "<group>"; };
+		C7817A911AEBDF39008ACECC /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		C7817A931AEBE95B008ACECC /* ProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectViewController.swift; sourceTree = "<group>"; };
+		C7817A951AEBFA36008ACECC /* PlaygroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundViewController.swift; sourceTree = "<group>"; };
+		C7817A971AEBFA7F008ACECC /* InterestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		C7817A991AEBFAC0008ACECC /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
 		C79876271AE6FD7C0078B3C1 /* Gautam Mittal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gautam Mittal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C798762B1AE6FD7C0078B3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +105,11 @@
 			children = (
 				C798762C1AE6FD7C0078B3C1 /* AppDelegate.swift */,
 				C798762E1AE6FD7C0078B3C1 /* FirstViewController.swift */,
+				C7817A911AEBDF39008ACECC /* AboutViewController.swift */,
+				C7817A931AEBE95B008ACECC /* ProjectViewController.swift */,
+				C7817A951AEBFA36008ACECC /* PlaygroundViewController.swift */,
+				C7817A971AEBFA7F008ACECC /* InterestsViewController.swift */,
+				C7817A991AEBFAC0008ACECC /* SkillsViewController.swift */,
 				C79876321AE6FD7C0078B3C1 /* Main.storyboard */,
 				C79876351AE6FD7C0078B3C1 /* Images.xcassets */,
 				C79876371AE6FD7C0078B3C1 /* LaunchScreen.xib */,
@@ -271,7 +286,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7817A941AEBE95B008ACECC /* ProjectViewController.swift in Sources */,
+				C7817A921AEBDF39008ACECC /* AboutViewController.swift in Sources */,
 				C798762D1AE6FD7C0078B3C1 /* AppDelegate.swift in Sources */,
+				C7817A961AEBFA36008ACECC /* PlaygroundViewController.swift in Sources */,
+				C7817A9A1AEBFAC0008ACECC /* SkillsViewController.swift in Sources */,
+				C7817A981AEBFA7F008ACECC /* InterestsViewController.swift in Sources */,
 				C798762F1AE6FD7C0078B3C1 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

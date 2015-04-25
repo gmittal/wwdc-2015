@@ -8,38 +8,20 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class AboutViewController: UIViewController {
 
  
-//    // button actions
-//    @IBAction func aboutButtonPressed(sender: AnyObject) {
-//
-//      
-//    }
-//
-//    @IBAction func projectButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    @IBAction func playgroundButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func interestsButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func skillsButtonPressed(sender: AnyObject) {
-//    }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "Gautam Mittal";
+        self.title = "About"
         
-  
+//        let backButton = UIBarButtonItem(title: "< Back", style: UIBarButtonItemStyle.Plain, target: self, action: "goBack")
+//        navigationItem.backBarButtonItem = backButton
+//        navigationItem.backBarButtonItem?.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Helvetica Neue", size: 15)!], forState: UIControlState.Normal)
 
     }
 

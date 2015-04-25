@@ -1,10 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="9pv-A4-QxB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUh-28-VsY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--Skills View Controller-->
+        <scene sceneID="2cj-6a-5y6">
+            <objects>
+                <viewController storyboardIdentifier="SkillsViewController" id="sE0-49-uhD" customClass="SkillsViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="e8P-qn-QjM"/>
+                        <viewControllerLayoutGuide type="bottom" id="09M-NU-hof"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nly-mp-TgY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRh-dv-Mmg">
+                                <rect key="frame" x="139" y="273" width="41" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pZe-dS-zLL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MfP-g8-jYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="-969"/>
+        </scene>
+        <!--Interests View Controller-->
+        <scene sceneID="9xD-cu-Dl6">
+            <objects>
+                <viewController storyboardIdentifier="InterestsViewController" id="Lcb-RQ-rpj" customClass="InterestsViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PDX-mk-kCC"/>
+                        <viewControllerLayoutGuide type="bottom" id="bvJ-XM-LHd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wq2-c3-ztp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="interests" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nOG-sW-hHz">
+                                <rect key="frame" x="126" y="322" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hHh-z0-cyZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uZK-2K-SlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1058" y="-974"/>
+        </scene>
+        <!--First View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,83 +71,83 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="round-me" translatesAutoresizingMaskIntoConstraints="NO" id="uao-Vd-X4S">
-                                <rect key="frame" x="110" y="234" width="100" height="100"/>
+                                <rect key="frame" x="110" y="167" width="100" height="100"/>
                             </imageView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V2R-5C-R2R">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <items>
-                                    <navigationItem title="Gautam Mittal" id="Dcd-0b-cNL"/>
-                                </items>
-                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zb7-Hs-fWY">
-                                <rect key="frame" x="71" y="343" width="64" height="64"/>
+                                <rect key="frame" x="71" y="276" width="64" height="64"/>
                                 <state key="normal" title="Interests" image="interests-btn"/>
+                                <connections>
+                                    <segue destination="Lcb-RQ-rpj" kind="push" id="B6H-Mm-bgW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP2-5b-tCq">
-                                <rect key="frame" x="128" y="126" width="64" height="64"/>
+                                <rect key="frame" x="128" y="59" width="64" height="64"/>
                                 <state key="normal" title="About" image="about-btn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="aboutButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="6dn-UH-PY7"/>
+                                    <segue destination="kjU-ZM-Qzb" kind="push" id="Qhx-zR-bmX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUs-Ra-nCW">
-                                <rect key="frame" x="24" y="221" width="64" height="64"/>
+                                <rect key="frame" x="24" y="154" width="64" height="64"/>
                                 <state key="normal" title="Skills" image="skills-btn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="sE0-49-uhD" kind="push" id="vrL-5d-Rgh"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihA-QV-amx">
-                                <rect key="frame" x="188" y="343" width="64" height="64"/>
+                                <rect key="frame" x="188" y="276" width="64" height="64"/>
                                 <state key="normal" title="Button" image="playground-btn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playgroundButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="yaw-YX-Qgx"/>
+                                    <segue destination="EiD-wQ-eV0" kind="push" id="odN-XD-LBT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTN-w7-hkI">
-                                <rect key="frame" x="231" y="221" width="64" height="64"/>
+                                <rect key="frame" x="231" y="154" width="64" height="64"/>
                                 <state key="normal" title="Projects" image="projects-btn">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="projectButtonPressed:" destination="9pv-A4-QxB" eventType="touchUpInside" id="MpN-Gb-KO9"/>
+                                    <segue destination="Qg4-jc-fiB" kind="push" id="7GU-MU-IPc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SC6-jQ-7bb">
-                                <rect key="frame" x="36" y="294" width="41" height="21"/>
+                                <rect key="frame" x="36" y="227" width="41" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Projects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5z-z6-9wg">
-                                <rect key="frame" x="232" y="293" width="62" height="24"/>
+                                <rect key="frame" x="232" y="226" width="62" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Playground" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xVS-Ld-2d6">
-                                <rect key="frame" x="175" y="415" width="90" height="24"/>
+                                <rect key="frame" x="175" y="348" width="90" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Interests" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ma7-7I-OpY">
-                                <rect key="frame" x="70" y="415" width="67" height="24"/>
+                                <rect key="frame" x="70" y="348" width="67" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7EL-0s-qJ4">
-                                <rect key="frame" x="136" y="198" width="49" height="24"/>
+                                <rect key="frame" x="136" y="131" width="49" height="24"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap on my face and ask me a question about myself!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mm3-Sb-AgH">
-                                <rect key="frame" x="36" y="47" width="404" height="21"/>
+                                <rect key="frame" x="36" y="20" width="404" height="21"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="14"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -101,9 +155,109 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="KAS-lQ-R9l"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="-303"/>
+        </scene>
+        <!--Playground View Controller-->
+        <scene sceneID="wZI-EF-HI4">
+            <objects>
+                <viewController storyboardIdentifier="PlaygroundViewController" id="EiD-wQ-eV0" customClass="PlaygroundViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oQk-Ug-sxg"/>
+                        <viewControllerLayoutGuide type="bottom" id="ChH-O2-6KY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lgC-Zp-w7p">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="playground" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPk-HZ-E9F">
+                                <rect key="frame" x="112" y="191" width="87" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IPX-ca-Rg4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eAO-S4-A1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="474" y="362"/>
+        </scene>
+        <!--Project View Controller-->
+        <scene sceneID="VTm-jW-DMX">
+            <objects>
+                <viewController storyboardIdentifier="ProjectViewController" id="Qg4-jc-fiB" customClass="ProjectViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FIu-BG-vGC"/>
+                        <viewControllerLayoutGuide type="bottom" id="iff-Wc-UFR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ybS-HM-ZQ3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="projects" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixO-Z3-peB">
+                                <rect key="frame" x="129" y="198" width="62" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5K1-sk-ZYT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HqL-WI-XRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968" y="355"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="dSF-nG-CRg">
+            <objects>
+                <viewController storyboardIdentifier="AboutViewController" id="kjU-ZM-Qzb" customClass="AboutViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vew-IW-dXO"/>
+                        <viewControllerLayoutGuide type="bottom" id="e9f-SL-gMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="l7g-kh-YdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48d-wk-NH9">
+                                <rect key="frame" x="112" y="314" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="R6a-U1-fp1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h5Z-CD-bol" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1416" y="-303"/>
+        </scene>
+        <!--First-->
+        <scene sceneID="By2-nd-uNy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dUh-28-VsY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Hxe-dK-LBj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="cBr-jY-zbZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="283-kO-MlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="400" y="-303"/>
         </scene>
