@@ -37,8 +37,9 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
+//        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
        
-//        self.title = "Gautam Mittal";
+         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
         
   
 
