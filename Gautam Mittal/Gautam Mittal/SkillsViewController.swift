@@ -17,7 +17,7 @@ class SkillsViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "Skills"
+//        self.title = "Skills"
 //        self.navigationItem.backBarButtonItem?.title = "Back";
 
     }

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dUh-28-VsY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="dUh-28-VsY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--Skills View Controller-->
+        <!--Skills-->
         <scene sceneID="2cj-6a-5y6">
             <objects>
                 <viewController storyboardIdentifier="SkillsViewController" id="sE0-49-uhD" customClass="SkillsViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -25,13 +25,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pZe-dS-zLL"/>
+                    <navigationItem key="navigationItem" title="Skills" id="pZe-dS-zLL">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="2eN-b3-OCA"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MfP-g8-jYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="532" y="-969"/>
+            <point key="canvasLocation" x="997.5" y="-1023.5915492957746"/>
         </scene>
-        <!--Interests View Controller-->
+        <!--Interests-->
         <scene sceneID="9xD-cu-Dl6">
             <objects>
                 <viewController storyboardIdentifier="InterestsViewController" id="Lcb-RQ-rpj" customClass="InterestsViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,13 +54,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="hHh-z0-cyZ"/>
+                    <navigationItem key="navigationItem" title="Interests" id="hHh-z0-cyZ">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="eMB-e2-SVh"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uZK-2K-SlJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1058" y="-974"/>
+            <point key="canvasLocation" x="1983.75" y="-1028.8732394366195"/>
         </scene>
-        <!--First View Controller-->
+        <!--Gautam Mittal-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -77,7 +81,7 @@
                                 <rect key="frame" x="71" y="276" width="64" height="64"/>
                                 <state key="normal" title="Interests" image="interests-btn"/>
                                 <connections>
-                                    <segue destination="Lcb-RQ-rpj" kind="push" id="B6H-Mm-bgW"/>
+                                    <segue destination="Lcb-RQ-rpj" kind="show" id="B6H-Mm-bgW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pP2-5b-tCq">
@@ -86,7 +90,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kjU-ZM-Qzb" kind="push" id="Qhx-zR-bmX"/>
+                                    <segue destination="kjU-ZM-Qzb" kind="show" id="Qhx-zR-bmX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUs-Ra-nCW">
@@ -95,7 +99,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="sE0-49-uhD" kind="push" id="vrL-5d-Rgh"/>
+                                    <segue destination="sE0-49-uhD" kind="show" id="vrL-5d-Rgh"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihA-QV-amx">
@@ -104,7 +108,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="EiD-wQ-eV0" kind="push" id="odN-XD-LBT"/>
+                                    <segue destination="EiD-wQ-eV0" kind="show" id="odN-XD-LBT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lTN-w7-hkI">
@@ -113,7 +117,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qg4-jc-fiB" kind="push" id="7GU-MU-IPc"/>
+                                    <segue destination="Qg4-jc-fiB" kind="show" id="7GU-MU-IPc"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Skills" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SC6-jQ-7bb">
@@ -155,13 +159,16 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KAS-lQ-R9l"/>
+                    <navigationItem key="navigationItem" title="Gautam Mittal" id="KAS-lQ-R9l">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="sNf-53-bKk"/>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="932" y="-303"/>
+            <point key="canvasLocation" x="1747.5" y="-320.07042253521126"/>
         </scene>
-        <!--Playground View Controller-->
+        <!--Playground-->
         <scene sceneID="wZI-EF-HI4">
             <objects>
                 <viewController storyboardIdentifier="PlaygroundViewController" id="EiD-wQ-eV0" customClass="PlaygroundViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -182,13 +189,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="IPX-ca-Rg4"/>
+                    <navigationItem key="navigationItem" title="Playground" id="IPX-ca-Rg4">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="6LW-88-cvp"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAO-S4-A1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="474" y="362"/>
+            <point key="canvasLocation" x="888.75" y="382.39436619718305"/>
         </scene>
-        <!--Project View Controller-->
+        <!--Projects-->
         <scene sceneID="VTm-jW-DMX">
             <objects>
                 <viewController storyboardIdentifier="ProjectViewController" id="Qg4-jc-fiB" customClass="ProjectViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -209,13 +218,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5K1-sk-ZYT"/>
+                    <navigationItem key="navigationItem" title="Projects" id="5K1-sk-ZYT">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="G7z-Ts-Zd9"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HqL-WI-XRL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="968" y="355"/>
+            <point key="canvasLocation" x="1815" y="375"/>
         </scene>
-        <!--About View Controller-->
+        <!--About-->
         <scene sceneID="dSF-nG-CRg">
             <objects>
                 <viewController storyboardIdentifier="AboutViewController" id="kjU-ZM-Qzb" customClass="AboutViewController" customModule="Gautam_Mittal" customModuleProvider="target" sceneMemberID="viewController">
@@ -227,20 +238,59 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="about" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48d-wk-NH9">
-                                <rect key="frame" x="112" y="314" width="45" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="golden-gate-blur" translatesAutoresizingMaskIntoConstraints="NO" id="SVT-mu-jPg">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="-6" width="320" height="574"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ev8-ZZ-a91">
+                                <rect key="frame" x="16" y="232" width="288" height="221"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">I'm Gautam Mittal, a 14-year-old student from the Bay Area. I currently attend Henry M. Gunn High School. I specialize in full-stack web and mobile development, in addition to having experience with game and hardware development. During the past few summers, I have worked at startups such as Make School and Edmodo.</string>
+                                        <attributes>
+                                            <color key="NSColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <font key="NSFont" size="16" name="AvenirNext-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="10" y="155" width="288" height="221"/>
+                                </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about-coding" translatesAutoresizingMaskIntoConstraints="NO" id="aEr-ba-l8M">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="34" y="4" width="240" height="152"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="SVT-mu-jPg"/>
+                                <exclude reference="ev8-ZZ-a91"/>
+                                <exclude reference="aEr-ba-l8M"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="SVT-mu-jPg"/>
+                                <include reference="ev8-ZZ-a91"/>
+                                <include reference="aEr-ba-l8M"/>
+                            </mask>
+                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="R6a-U1-fp1"/>
+                    <navigationItem key="navigationItem" title="About" id="R6a-U1-fp1">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="0h0-Sr-StI"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="h5Z-CD-bol" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1416" y="-303"/>
+            <point key="canvasLocation" x="2340" y="-321"/>
         </scene>
         <!--First-->
         <scene sceneID="By2-nd-uNy">
@@ -259,21 +309,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="283-kO-MlY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400" y="-303"/>
+            <point key="canvasLocation" x="750" y="-320.07042253521126"/>
         </scene>
     </scenes>
     <resources>
         <image name="about-btn" width="256" height="256"/>
+        <image name="about-coding" width="875" height="581"/>
         <image name="first" width="30" height="30"/>
+        <image name="golden-gate-blur" width="1738" height="3091"/>
         <image name="interests-btn" width="256" height="256"/>
         <image name="playground-btn" width="256" height="256"/>
         <image name="projects-btn" width="256" height="256"/>
         <image name="round-me" width="820" height="820"/>
         <image name="skills-btn" width="256" height="256"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
 </document>

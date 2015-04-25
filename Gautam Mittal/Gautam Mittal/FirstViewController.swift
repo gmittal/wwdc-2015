@@ -37,7 +37,8 @@ class FirstViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "Gautam Mittal";
+       
+//        self.title = "Gautam Mittal";
         
   
 

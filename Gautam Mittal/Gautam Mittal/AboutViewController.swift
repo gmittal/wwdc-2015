@@ -10,6 +10,7 @@ import UIKit
 
 class AboutViewController: UIViewController {
 
+    @IBOutlet weak var aboutLabel: UILabel!
  
     
     override func viewDidLoad() {
@@ -17,11 +18,9 @@ class AboutViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "About"
+
         
-//        let backButton = UIBarButtonItem(title: "< Back", style: UIBarButtonItemStyle.Plain, target: self, action: "goBack")
-//        navigationItem.backBarButtonItem = backButton
-//        navigationItem.backBarButtonItem?.setTitleTextAttributes([NSFontAttributeName: UIFont(name: "Helvetica Neue", size: 15)!], forState: UIControlState.Normal)
+
 
     }
 

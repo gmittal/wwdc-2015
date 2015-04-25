@@ -17,7 +17,7 @@ class ProjectViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-        self.title = "Projects"
+//        self.title = "Projects"
 //        self.navigationItem.backBarButtonItem?.title = "Back";
 
     }
