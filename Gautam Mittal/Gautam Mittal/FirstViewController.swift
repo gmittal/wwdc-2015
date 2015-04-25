@@ -10,6 +10,19 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
+ 
+    @IBAction func aboutButtonPressed(sender: AnyObject) {
+        println("Hello!");
+    }
+
+    @IBAction func projectButtonPressed(sender: AnyObject) {
+    }
+    
+    @IBAction func playgroundButtonPressed(sender: AnyObject) {
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
