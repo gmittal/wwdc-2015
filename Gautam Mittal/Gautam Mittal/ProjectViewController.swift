@@ -60,9 +60,9 @@ class ProjectViewController: UIViewController {
         
         self.edgesForExtendedLayout = UIRectEdge();
         
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "grey")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
         
-        projectsView.contentSize = CGSizeMake(view.bounds.width, view.bounds.height+1000);
+        projectsView.contentSize = CGSizeMake(view.bounds.width, view.bounds.height+1200);
 
 
     }

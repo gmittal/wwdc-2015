@@ -10,38 +10,19 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
- 
-//    // button actions
-//    @IBAction func aboutButtonPressed(sender: AnyObject) {
-//
-//      
-//    }
-//
-//    @IBAction func projectButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    @IBAction func playgroundButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func interestsButtonPressed(sender: AnyObject) {
-//    }
-//    
-//    
-//    @IBAction func skillsButtonPressed(sender: AnyObject) {
-//    }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         self.edgesForExtendedLayout = UIRectEdge();
-//        [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
+
        
-         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "grey")!)
-        
-  
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
+
+        navigationController!.navigationBar.barTintColor = UIColor(red: 71.0/255.0, green: 78.0/255.0, blue: 88.0/255.0, alpha: 1.0);
+        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()];
+//        navigationController!.navigationBar.tintColor = UIColor(red: 117/255, green: 100/255, blue: 0/255, alpha: 255/255);
 
     }
 

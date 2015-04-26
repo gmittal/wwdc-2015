@@ -19,9 +19,9 @@ class InterestsViewController: UIViewController {
         
         self.edgesForExtendedLayout = UIRectEdge();
 
-        interestsView.contentSize = CGSizeMake(view.bounds.width, view.bounds.height+100);
+        interestsView.contentSize = CGSizeMake(view.bounds.width, view.bounds.height + 150);
         
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "grey")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
 
     }
 
