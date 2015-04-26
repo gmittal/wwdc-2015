@@ -377,18 +377,6 @@
                                     <segue destination="sE0-49-uhD" kind="show" id="u9m-wH-vbz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HY5-vF-7Pb">
-                                <rect key="frame" x="188" y="276" width="64" height="64"/>
-                                <state key="normal" title="Button" image="playground-btn">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="195" y="266" width="64" height="64"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="EiD-wQ-eV0" kind="show" id="Qt4-vk-JaL"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOu-Vz-dKd">
                                 <rect key="frame" x="231" y="154" width="64" height="64"/>
                                 <state key="normal" title="Projects" image="projects-btn">
@@ -446,6 +434,18 @@
                                     <rect key="frame" x="136" y="121" width="49" height="24"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HY5-vF-7Pb">
+                                <rect key="frame" x="188" y="276" width="64" height="64"/>
+                                <state key="normal" title="Button" image="playground-btn">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="195" y="266" width="64" height="64"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="EiD-wQ-eV0" kind="show" id="Qt4-vk-JaL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -454,13 +454,13 @@
                                 <exclude reference="9zH-wg-IDN"/>
                                 <exclude reference="gc2-rv-T7a"/>
                                 <exclude reference="IFe-tN-eGU"/>
-                                <exclude reference="HY5-vF-7Pb"/>
                                 <exclude reference="dOu-Vz-dKd"/>
                                 <exclude reference="uxd-pt-ufv"/>
                                 <exclude reference="JXN-wH-XVd"/>
                                 <exclude reference="A4B-wh-Urv"/>
                                 <exclude reference="puD-gU-xxq"/>
                                 <exclude reference="dHF-al-Yu5"/>
+                                <exclude reference="HY5-vF-7Pb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -469,13 +469,13 @@
                                 <include reference="9zH-wg-IDN"/>
                                 <include reference="gc2-rv-T7a"/>
                                 <include reference="IFe-tN-eGU"/>
-                                <include reference="HY5-vF-7Pb"/>
                                 <include reference="dOu-Vz-dKd"/>
                                 <include reference="uxd-pt-ufv"/>
                                 <include reference="JXN-wH-XVd"/>
                                 <include reference="A4B-wh-Urv"/>
                                 <include reference="puD-gU-xxq"/>
                                 <include reference="dHF-al-Yu5"/>
+                                <include reference="HY5-vF-7Pb"/>
                             </mask>
                         </variation>
                     </view>
@@ -500,25 +500,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="println(&quot;Hello, world!&quot;);" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-5d-dlP">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" spellCheckingType="no"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="5" y="6" width="310" height="275"/>
-                                </variation>
-                            </textView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d6U-0I-iKb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Results will be output here." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa9-82-osq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="500" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa9-82-osq">
                                         <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <string key="text">Welcome to my playground! You can write some Swift code in the above window and then hit the 'Run' button in the top-right corner to compile the code.</string>
                                         <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="15"/>
                                         <color key="textColor" red="0.54901960780000003" green="0.13725490200000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="8" y="4" width="302" height="116"/>
+                                            <rect key="frame" x="8" y="4" width="302" height="94"/>
                                         </variation>
                                     </label>
                                 </subviews>
@@ -528,24 +520,60 @@
                                     </mask>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="5" y="291" width="310" height="120"/>
+                                    <rect key="frame" x="5" y="291" width="310" height="98"/>
                                     <mask key="subviews">
                                         <include reference="Pa9-82-osq"/>
                                     </mask>
                                 </variation>
                             </scrollView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SP1-GB-Skf">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.1647058824" green="0.18823529410000001" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="5" y="282" width="310" height="2"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZH4-vm-fcl">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" keyboardDismissMode="onDrag" text="println(&quot;Hello, world!&quot;);" translatesAutoresizingMaskIntoConstraints="NO" id="Y1x-5d-dlP">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="textColor" red="1" green="0.98941444401080914" blue="0.97405287898071291" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no"/>
+                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="5" y="8" width="310" height="269"/>
+                                        </variation>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="Y1x-5d-dlP"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="277"/>
+                                    <mask key="subviews">
+                                        <include reference="Y1x-5d-dlP"/>
+                                    </mask>
+                                </variation>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="Y1x-5d-dlP"/>
                                 <exclude reference="d6U-0I-iKb"/>
+                                <exclude reference="SP1-GB-Skf"/>
+                                <exclude reference="ZH4-vm-fcl"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="Y1x-5d-dlP"/>
                                 <include reference="d6U-0I-iKb"/>
+                                <include reference="SP1-GB-Skf"/>
+                                <include reference="ZH4-vm-fcl"/>
                             </mask>
                         </variation>
                     </view>
@@ -557,6 +585,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="codeField" destination="Y1x-5d-dlP" id="ewK-BL-I21"/>
+                        <outlet property="resultOutput" destination="Pa9-82-osq" id="gTx-nm-EqR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eAO-S4-A1x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1152,17 +1184,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="golden-gate-blur" translatesAutoresizingMaskIntoConstraints="NO" id="SVT-mu-jPg">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="-6" width="320" height="574"/>
-                                </variation>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ev8-ZZ-a91">
                                 <rect key="frame" x="16" y="232" width="288" height="221"/>
                                 <string key="text">I'm Gautam Mittal, a 14-year-old student from the Bay Area. I currently attend Henry M. Gunn High School. I specialize in full-stack web and mobile development, in addition to having experience with game and hardware development. During the past few summers, I have worked at startups such as Make School and Edmodo.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
@@ -1179,14 +1205,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="SVT-mu-jPg"/>
                                 <exclude reference="ev8-ZZ-a91"/>
                                 <exclude reference="aEr-ba-l8M"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="SVT-mu-jPg"/>
                                 <include reference="ev8-ZZ-a91"/>
                                 <include reference="aEr-ba-l8M"/>
                             </mask>
@@ -1225,7 +1249,6 @@
         <image name="about-coding" width="875" height="581"/>
         <image name="blend" width="57" height="57"/>
         <image name="first" width="30" height="30"/>
-        <image name="golden-gate-blur" width="1738" height="3091"/>
         <image name="hackathon" width="240" height="240"/>
         <image name="hiruko" width="175" height="175"/>
         <image name="indianews" width="150" height="150"/>

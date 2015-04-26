@@ -19,7 +19,7 @@ class AboutViewController: UIViewController {
         
         self.edgesForExtendedLayout = UIRectEdge();
 
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "random_grey_variations")!)
 
 
     }
