@@ -1,1 +1,1 @@
-println(6*6)
+println("Hello, world!");
