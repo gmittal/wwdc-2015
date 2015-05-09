@@ -1,7 +1,7 @@
 # wwdc-2015
 My application for the WWDC 2015 Student Scholarship.
 
-EDIT: I won the scholarship!
+*_EDIT: I won the scholarship!_*
 
 Crossing my fingers (submitted 5 minutes before the deadline).
 
