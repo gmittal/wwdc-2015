@@ -1,6 +1,8 @@
 # wwdc-2015
 My application for the WWDC 2015 Student Scholarship.
 
+A quick demo of my app is available at [https://www.youtube.com/watch?v=ryTamhlDfEU](https://www.youtube.com/watch?v=ryTamhlDfEU)
+
 *_EDIT: I won the scholarship!_*
 
 Crossing my fingers (submitted 5 minutes before the deadline).
