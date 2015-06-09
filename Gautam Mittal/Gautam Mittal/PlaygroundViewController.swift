@@ -22,7 +22,7 @@ class PlaygroundViewController: UIViewController {
         
         
         
-        let request = NSMutableURLRequest(URL: NSURL(string: "http://gautam-mittal-wwdc.ngrok.com/build")!)
+        let request = NSMutableURLRequest(URL: NSURL(string: "http://HOST-YOUR-OWN-NGROK-SERVER.ngrok.com/build")!)
         request.HTTPMethod = "POST"
         let postString = "code=" + code;
         request.HTTPBody = postString.dataUsingEncoding(NSUTF8StringEncoding)
