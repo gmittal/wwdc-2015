@@ -30,17 +30,17 @@ class PlaygroundViewController: UIViewController {
             data, response, error in
             
             if error != nil {
-                println("error=\(error)");
+                print("error=\(error)");
                 
                 self.resultOutput.text = "An error occurred. Please check your device's internet connection.";
                 
                 return
             }
             
-            println("response = \(response)")
+            print("response = \(response)")
             
             let responseString = NSString(data: data, encoding: NSUTF8StringEncoding)
-            println(responseString);
+            print(responseString);
             
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
                 self.resultOutput.text = String(responseString!);

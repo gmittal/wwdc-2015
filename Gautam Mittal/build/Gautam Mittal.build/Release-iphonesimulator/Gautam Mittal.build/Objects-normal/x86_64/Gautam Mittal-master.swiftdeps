@@ -1,0 +1,10 @@
+version: "Apple Swift version 1.2 (swiftlang-602.0.49.3 clang-clang-602.0.49)"
+options: "344f912f0de3b30e3d81e47a4399b151"
+inputs: 
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/ProjectViewController.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/AboutViewController.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/AppDelegate.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/PlaygroundViewController.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/SkillsViewController.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/InterestsViewController.swift"
+- "/Users/gautam/Desktop/git-repos/wwdc-2015/Gautam Mittal/Gautam Mittal/FirstViewController.swift"
