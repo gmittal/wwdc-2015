@@ -39,7 +39,7 @@ class PlaygroundViewController: UIViewController {
             
             print("response = \(response)")
             
-            let responseString = NSString(data: data, encoding: NSUTF8StringEncoding)
+            let responseString = NSString(data: data!, encoding: NSUTF8StringEncoding)
             print(responseString);
             
             dispatch_async(dispatch_get_main_queue(), { () -> Void in
@@ -48,7 +48,7 @@ class PlaygroundViewController: UIViewController {
 
         }
         
-        task.resume()
+        task!.resume()
     }
  
     
