@@ -1,4 +1,4 @@
-# wwdc-2015
+# WWDC 2015
 My application for the WWDC 2015 Student Scholarship.
 
 A quick demo of my app is available at [https://www.youtube.com/watch?v=ryTamhlDfEU](https://www.youtube.com/watch?v=ryTamhlDfEU)
