@@ -1,18 +1,11 @@
 # WWDC 2015
-My application for the WWDC 2015 Student Scholarship.
+My application for the [WWDC](https://developer.apple.com/wwdc/) 2015 Student Scholarship. The app was one of the 350 selected to receive full scholarships to Apple's Worldwide Developer Conference. A quick demo of my app is available at [here](https://www.youtube.com/watch?v=ryTamhlDfEU).
 
-A quick demo of my app is available at [https://www.youtube.com/watch?v=ryTamhlDfEU](https://www.youtube.com/watch?v=ryTamhlDfEU)
+__Note:__: Future applicants, never submit your application less than 5 minutes before the deadline. There's a lot that could go wrong during submission (a couple of my friends had to re-submit twice or thrice), and could mean the difference between receiving and not receiving the scholarship.
 
-*_EDIT: I won the scholarship!_*
-
-Crossing my fingers (submitted 5 minutes before the deadline).
-
-<img src="https://raw.githubusercontent.com/gmittal/wwdc-2015/master/Screenshot%202015-04-26%2004.55.18.png?token=AB6_lv57u64GM7K0xuQ51pPKMB-NVgf9ks5VV4DhwA%3D%3D"/>
+![s1](https://cdn.rawgit.com/gmittal/wwdc-2015/master/WWDC%20Application/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.25%20PM.png)
+![s2](https://cdn.rawgit.com/gmittal/wwdc-2015/master/WWDC%20Application/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.29%20PM.png)
+![s3](https://cdn.rawgit.com/gmittal/wwdc-2015/master/WWDC%20Application/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.35%20PM.png)
 
 
-<img src="https://raw.githubusercontent.com/gmittal/wwdc-2015/master/wwdc_application_files/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.25%20PM.png?token=AB6_lhZ-mFSwU66sSL7oec11527WRL6gks5VV4ElwA%3D%3D" width="278px" />
-<img src="https://raw.githubusercontent.com/gmittal/wwdc-2015/master/wwdc_application_files/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.29%20PM.png?token=AB6_luf7baRH9TcHdftqnkPBUa4wiq8zks5VV4E1wA%3D%3D" width="278px"/>
-<img src="https://raw.githubusercontent.com/gmittal/wwdc-2015/master/wwdc_application_files/iOS%20Simulator%20Screen%20Shot%20Apr%2026%2C%202015%2C%204.48.35%20PM.png?token=AB6_loX6FvG0KHOMBZpbDThHaJSb8gwiks5VV4FEwA%3D%3D" width="278px"/>
-
-
-Hopefully it turns out well. Feel free to modify this for your own needs, just be sure to give me attribution if you do decide to use this commercially.
+### Setup
