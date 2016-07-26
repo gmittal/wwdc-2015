@@ -25,5 +25,10 @@
   "bugs": {
     "url": "https://github.com/gmittal/wwdc-2015/issues"
   },
-  "homepage": "https://github.com/gmittal/wwdc-2015#readme"
+  "homepage": "https://github.com/gmittal/wwdc-2015#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "shelljs": "^0.7.2"
+  }
 }
