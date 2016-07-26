@@ -1,0 +1,29 @@
+{
+  "name": "wwdc-2015-server",
+  "version": "1.0.0",
+  "description": "Server that powers Gautam Mittal's 2015 WWDC app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gmittal/wwdc-2015.git"
+  },
+  "keywords": [
+    "swift",
+    "server",
+    "wwdc",
+    "apple",
+    "gautam",
+    "mittal",
+    "gautam",
+    "mittal"
+  ],
+  "author": "Gautam Mittal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gmittal/wwdc-2015/issues"
+  },
+  "homepage": "https://github.com/gmittal/wwdc-2015#readme"
+}
