@@ -23,7 +23,7 @@ $ ngrok http 3000
 ```
 Find the following lines of code in ```iOS Application/Gautam Mittal/PlaygroundViewController.swift``` and replace the ```{NGROK-URL}``` with your ```ngrok``` tunnel url.
 ```swift
-let request = NSMutableURLRequest(URL: NSURL(string: "http://4e2a4c9c.ngrok.io/build")!)
+let request = NSMutableURLRequest(URL: NSURL(string: "{NGROK-URL}")!)
 request.HTTPMethod = "POST"
 ```
 Open ```iOS Application/Gautam Mittal.xcworkspace``` in Xcode, and run the app.
