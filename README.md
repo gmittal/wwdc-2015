@@ -13,12 +13,17 @@ Install the ```npm``` dependencies.
 ```
 $ [sudo] npm install
 ```
+Start the Node webserver.
+```
+$ node app.js
+```
 If you're running the server locally, you'll need to fire up [```ngrok```](https://ngrok.com/)
 ```
 $ ngrok http 3000
 ```
-Find the following lines of code in ```iOS Application/Gautam Mittal/PlaygroundViewController.swift``` and replace the ```{NGROK-URL}```
+Find the following lines of code in ```iOS Application/Gautam Mittal/PlaygroundViewController.swift``` and replace the ```{NGROK-URL}``` with your ```ngrok``` tunnel url.
 ```swift
 let request = NSMutableURLRequest(URL: NSURL(string: "http://4e2a4c9c.ngrok.io/build")!)
 request.HTTPMethod = "POST"
 ```
+Open ```iOS Application/Gautam Mittal.xcworkspace``` in Xcode, and run the app.
