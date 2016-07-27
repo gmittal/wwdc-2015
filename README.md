@@ -5,3 +5,20 @@ __Note:__ Future applicants, never submit your application less than 5 minutes b
 
 
 ### Setup
+Clone (or download) the project.
+```
+$ git clone https://github.com/gmittal/wwdc-2015; cd wwdc-2015
+```
+Install the ```npm``` dependencies.
+```
+$ [sudo] npm install
+```
+If you're running the server locally, you'll need to fire up [```ngrok```](https://ngrok.com/)
+```
+$ ngrok http 3000
+```
+Find the following lines of code in ```iOS Application/Gautam Mittal/PlaygroundViewController.swift``` and replace the ```{NGROK-URL}```
+```swift
+let request = NSMutableURLRequest(URL: NSURL(string: "http://4e2a4c9c.ngrok.io/build")!)
+request.HTTPMethod = "POST"
+```
